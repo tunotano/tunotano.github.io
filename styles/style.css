@@ -3,11 +3,22 @@ html, body {
 }
 
 html {
+  display: table;
   margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+p{
+  font-size: xx-large;
+  color: red;
 }
