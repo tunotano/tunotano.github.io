@@ -1,3 +1,11 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  margin: auto;
+}
+
 .container {
   display: flex;
   justify-content: center;
